@@ -6,20 +6,20 @@ python-multipart
 # Frontend
 streamlit
 
-# AI와 MCP
+# AI and MCP
 openai
 mcp>=1.27,<2
 
-# PostgreSQL, Redis, HTTP 통신
+# PostgreSQL, Redis, and HTTP
 psycopg[binary]
 redis
 httpx
 
-# 설정, 데이터 검증, 이미지 확인
+# Configuration, data validation, and image checks
 python-dotenv
 pydantic
 Pillow
 
-# 자동 테스트
+# Automated tests
 pytest
 fakeredis
